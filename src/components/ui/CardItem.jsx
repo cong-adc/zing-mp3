@@ -1,10 +1,13 @@
 import React from "react";
 
-export default function CardItem({ name, singer, image }) {
+export default function CardItem({ name, singer, image, music, onClick }) {
   return (
-    <div className="flex items-center gap-2 hover:bg-slate-500/20 p-2">
+    <div
+      className="flex items-center gap-2 hover:bg-slate-500/20 p-2"
+      onClick={() => onClick && onClick(music)}
+    >
       <div>
-        <img className="w-12 h-12" src={image} />
+        <img className="w-12 h-12 object-cover" src={image} />
       </div>
       <div className="text-white">
         <h5>{name}</h5>
