@@ -1,5 +1,6 @@
 import { AlarmClock, Clock, Ellipsis } from "lucide-react";
 import React from "react";
+import CardItem from "./ui/CardItem";
 
 export default function SidebarsRight() {
   return (
@@ -21,18 +22,11 @@ export default function SidebarsRight() {
         </button>
       </div>
 
-      <div className="flex items-center gap-2 hover:bg-slate-500/20 p-2">
-        <div>
-          <img
-            className="w-12 h-12"
-            src="https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_jpeg/cover/4/a/8/a/4a8aa1c98b13f82c95fad774ee6589eb.jpg"
-          />
-        </div>
-        <div className="text-white">
-          <h5>Chợt Nghe Bước Em Về</h5>
-          <p className="text-sm text-gray-500">Le van A</p>
-        </div>
-      </div>
+      <CardItem
+        name="Bai 1"
+        singer="Singer 1"
+        image="https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_jpeg/cover/4/a/8/a/4a8aa1c98b13f82c95fad774ee6589eb.jpg"
+      />
     </div>
   );
 }

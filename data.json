@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Đi Về Nhà",
+    "artist": "Đen Vâu, JustaTee",
+    "album": "Đi Về Nhà",
+    "genre": "Rap/Hip-Hop",
+    "year": 2020,
+    "duration": "3:55",
+    "url": "src/assets/bai1.mp3",
+    "cover": "https://photo-zmp3.zmdcdn.me/banner/1/4/5/3/1453793acd6e99638c757e7db976e01f.jpg"
+  },
+  {
+    "title": "Có Chắc Yêu Là Đây",
+    "artist": "Sơn Tùng M-TP",
+    "album": "Có Chắc Yêu Là Đây",
+    "genre": "Pop",
+    "year": 2020,
+    "duration": "4:19",
+    "url": "src/assets/bai2.mp3",
+    "cover": "https://photo-zmp3.zmdcdn.me/banner/5/0/3/b/503b76b9c1d5102e06fe07c26b507a5c.jpg"
+  },
+  {
+    "title": "Nơi Này Có Anh",
+    "artist": "Sơn Tùng M-TP",
+    "album": "Nơi Này Có Anh",
+    "genre": "Pop",
+    "year": 2017,
+    "duration": "4:25",
+    "url": "src/assets/bai1.mp3",
+    "cover": "https://photo-zmp3.zmdcdn.me/banner/b/d/d/e/bddeb09c0439d7fb5ce1b28751400483.jpg"
+  },
+  {
+    "title": "Em Gì Ơi",
+    "artist": "Jack, K-ICM",
+    "album": "Em Gì Ơi",
+    "genre": "Pop",
+    "year": 2019,
+    "duration": "4:29",
+    "url": "src/assets/bai2.mp3",
+    "cover": "https://photo-zmp3.zmdcdn.me/banner/3/8/b/2/38b2ee1fa054de2b745e4e7d27fb2db0.jpg"
+  },
+  {
+    "title": "Bạc Phận",
+    "artist": "Jack, K-ICM",
+    "album": "Bạc Phận",
+    "genre": "Pop",
+    "year": 2019,
+    "duration": "4:10",
+    "url": "src/assets/bai1.mp3",
+    "cover": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_jpeg/cover/3/3/5/f/335fd454479984639775bed29d9549f1.jpg"
+  },
+  {
+    "title": "Lạc Trôi",
+    "artist": "Sơn Tùng M-TP",
+    "album": "Lạc Trôi",
+    "genre": "Pop",
+    "year": 2017,
+    "duration": "4:00",
+    "url": "src/assets/bai1.mp3",
+    "cover": "https://photo-zmp3.zmdcdn.me/banner/1/4/5/3/1453793acd6e99638c757e7db976e01f.jpg"
+  },
+  {
+    "title": "Hãy Trao Cho Anh",
+    "artist": "Sơn Tùng M-TP",
+    "album": "Hãy Trao Cho Anh",
+    "genre": "Pop",
+    "year": 2019,
+    "duration": "3:50",
+    "url": "src/assets/bai2.mp3",
+    "cover": "https://photo-zmp3.zmdcdn.me/banner/5/0/3/b/503b76b9c1d5102e06fe07c26b507a5c.jpg"
+  },
+  {
+    "title": "Em Của Ngày Hôm Qua",
+    "artist": "Sơn Tùng M-TP",
+    "album": "Em Của Ngày Hôm Qua",
+    "genre": "Pop",
+    "year": 2014,
+    "duration": "3:59",
+    "url": "src/assets/bai1.mp3",
+    "cover": "https://photo-zmp3.zmdcdn.me/banner/b/d/d/e/bddeb09c0439d7fb5ce1b28751400483.jpg"
+  },
+  {
+    "title": "Sóng Gió",
+    "artist": "Jack, K-ICM",
+    "album": "Sóng Gió",
+    "genre": "Pop",
+    "year": 2019,
+    "duration": "4:29",
+    "url": "src/assets/bai2.mp3",
+    "cover": "https://photo-zmp3.zmdcdn.me/banner/3/8/b/2/38b2ee1fa054de2b745e4e7d27fb2db0.jpg"
+  },
+  {
+    "title": "HongKong1",
+    "artist": "Nguyễn Trọng Tài, Sanji, Double X",
+    "album": "HongKong1",
+    "genre": "Ballad",
+    "year": 2018,
+    "duration": "4:10",
+    "url": "src/assets/bai1.mp3",
+    "cover": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_jpeg/cover/3/3/5/f/335fd454479984639775bed29d9549f1.jpg"
+  }
+]
