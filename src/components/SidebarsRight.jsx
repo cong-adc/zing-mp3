@@ -3,7 +3,7 @@ import React from "react";
 
 export default function SidebarsRight() {
   return (
-    <div className="w-[350px] bg-[#170f23]">
+    <div className="w-[350px] bg-[#170f23] border-l border-l-slate-700">
       <div className="flex items-center p-4 justify-between">
         <div className="flex bg-white/20 p-1 rounded-3xl gap-2">
           <button className="bg-white/50 text-sm p-1 px-2 rounded-2xl text-white">
