@@ -1,8 +1,23 @@
 import { AlarmClock, Clock, Ellipsis } from "lucide-react";
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import CardItem from "./ui/CardItem";
+import { PlayerContext } from "../App";
 
 export default function SidebarsRight() {
+  const { musicPlaying } = useContext(PlayerContext);
+
+  const [listHistory, setListHistory] = React.useState([]);
+
+  useEffect(() => {
+    const fetchHistory = () => {
+      const historyMusic = JSON.parse(
+        localStorage.getItem("musicList") ?? "[]"
+      );
+      setListHistory(historyMusic);
+    };
+    setTimeout(fetchHistory, 100);
+  }, [musicPlaying]);
+
   return (
     <div className="w-[350px] bg-[#170f23] border-l border-l-slate-700">
       <div className="flex items-center p-4 justify-between">
@@ -22,11 +37,14 @@ export default function SidebarsRight() {
         </button>
       </div>
 
-      <CardItem
-        name="Bai 1"
-        singer="Singer 1"
-        image="https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_jpeg/cover/4/a/8/a/4a8aa1c98b13f82c95fad774ee6589eb.jpg"
-      />
+      {listHistory.map((music) => (
+        <CardItem
+          key={music.id}
+          name={music.title}
+          singer={music.artist}
+          image={music.cover}
+        />
+      ))}
     </div>
   );
 }

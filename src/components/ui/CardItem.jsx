@@ -1,9 +1,18 @@
 import React from "react";
 
-export default function CardItem({ name, singer, image, music, onClick }) {
+export default function CardItem({
+  name,
+  singer,
+  image,
+  music,
+  onClick,
+  isHover = true,
+}) {
   return (
     <div
-      className="flex items-center gap-2 hover:bg-slate-500/20 p-2"
+      className={`flex items-center gap-2  p-2  ${
+        isHover ? "hover:bg-slate-500/20" : ""
+      }  `}
       onClick={() => onClick && onClick(music)}
     >
       <div>

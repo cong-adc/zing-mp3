@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import data from "../../data.json";
 
 // Import Swiper styles
 import "swiper/css";
@@ -12,6 +13,9 @@ import { Pagination } from "swiper/modules";
 import { Navigation } from "swiper/modules";
 
 export default function Banner() {
+  console.log("====================================");
+  console.log(data);
+  console.log("====================================");
   return (
     <div className="h-48 px-10 mt-10">
       <Swiper
@@ -24,15 +28,11 @@ export default function Banner() {
         modules={[Navigation, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        {data.map((item) => (
+          <SwiperSlide key={item.id} className="rounded-2xl overflow-hidden">
+            <img src={item.cover} alt={item.title} />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );

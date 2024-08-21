@@ -1,20 +1,20 @@
-import React, { useContext, useEffect, useRef } from "react";
-import CardItem from "./ui/CardItem";
 import {
   ArrowLeftRight,
   AudioLines,
-  MicrochipIcon,
-  Microscope,
   MicVocal,
   PauseCircle,
   Shuffle,
   StepBack,
   StepForward,
 } from "lucide-react";
+import React, { useContext, useEffect, useRef } from "react";
+import CardItem from "./ui/CardItem";
 import { PlayerContext } from "../App";
+import "react-h5-audio-player/lib/styles.css";
+import AudioPlayer from "react-h5-audio-player";
 
 export default function Player() {
-  const { musicPlaying, onNextMusic } = useContext(PlayerContext);
+  const { musicPlaying, onNextMusic, onPrevMusic } = useContext(PlayerContext);
   const refAudio = useRef(null);
 
   useEffect(() => {
@@ -40,8 +40,8 @@ export default function Player() {
           singer={musicPlaying.artist}
         />
       </div>
-      <div>
-        <div className="text-white flex items-center gap-4">
+      <div className="w-full">
+        {/* <div className="text-white flex items-center gap-4">
           <button className="hover:bg-purple-900/80 p-2 rounded-full">
             <Shuffle width={24} />
           </button>
@@ -63,10 +63,16 @@ export default function Player() {
           <button className="hover:bg-purple-900/80 p-2 rounded-full">
             <ArrowLeftRight width={24} />
           </button>
-        </div>
-        <div>
-          <audio ref={refAudio} controls />
-        </div>
+        </div> */}
+        <AudioPlayer
+          ref={refAudio}
+          src={musicPlaying.url}
+          showJumpControls
+          showSkipControls
+          onClickNext={onNextMusic}
+          onClickPrevious={onPrevMusic}
+          className="bg-transparent h-full overflow-hidden shadow-none"
+        />
       </div>
       <div className="text-white flex items-center gap-4">
         <button>

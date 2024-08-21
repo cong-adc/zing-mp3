@@ -7,7 +7,7 @@
     "genre": "Rap/Hip-Hop",
     "year": 2020,
     "duration": "3:55",
-    "url": "src/assets/bai1.mp3",
+    "url": "/src/assets/bai1.mp3",
     "cover": "https://photo-zmp3.zmdcdn.me/banner/1/4/5/3/1453793acd6e99638c757e7db976e01f.jpg"
   },
   {
@@ -18,7 +18,7 @@
     "genre": "Pop",
     "year": 2020,
     "duration": "4:19",
-    "url": "src/assets/bai2.mp3",
+    "url": "/src/assets/bai2.mp3",
     "cover": "https://photo-zmp3.zmdcdn.me/banner/5/0/3/b/503b76b9c1d5102e06fe07c26b507a5c.jpg"
   },
   {
@@ -29,7 +29,7 @@
     "genre": "Pop",
     "year": 2017,
     "duration": "4:25",
-    "url": "src/assets/bai1.mp3",
+    "url": "/src/assets/bai1.mp3",
     "cover": "https://photo-zmp3.zmdcdn.me/banner/b/d/d/e/bddeb09c0439d7fb5ce1b28751400483.jpg"
   },
   {
@@ -40,7 +40,7 @@
     "genre": "Pop",
     "year": 2019,
     "duration": "4:29",
-    "url": "src/assets/bai2.mp3",
+    "url": "/src/assets/bai2.mp3",
     "cover": "https://photo-zmp3.zmdcdn.me/banner/3/8/b/2/38b2ee1fa054de2b745e4e7d27fb2db0.jpg"
   },
   {
@@ -51,7 +51,7 @@
     "genre": "Pop",
     "year": 2019,
     "duration": "4:10",
-    "url": "src/assets/bai1.mp3",
+    "url": "/src/assets/bai1.mp3",
     "cover": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_jpeg/cover/3/3/5/f/335fd454479984639775bed29d9549f1.jpg"
   },
   {
@@ -62,7 +62,7 @@
     "genre": "Pop",
     "year": 2017,
     "duration": "4:00",
-    "url": "src/assets/bai1.mp3",
+    "url": "/src/assets/bai1.mp3",
     "cover": "https://photo-zmp3.zmdcdn.me/banner/1/4/5/3/1453793acd6e99638c757e7db976e01f.jpg"
   },
   {
@@ -73,7 +73,7 @@
     "genre": "Pop",
     "year": 2019,
     "duration": "3:50",
-    "url": "src/assets/bai2.mp3",
+    "url": "/src/assets/bai2.mp3",
     "cover": "https://photo-zmp3.zmdcdn.me/banner/5/0/3/b/503b76b9c1d5102e06fe07c26b507a5c.jpg"
   },
   {
@@ -84,7 +84,7 @@
     "genre": "Pop",
     "year": 2014,
     "duration": "3:59",
-    "url": "src/assets/bai1.mp3",
+    "url": "/src/assets/bai1.mp3",
     "cover": "https://photo-zmp3.zmdcdn.me/banner/b/d/d/e/bddeb09c0439d7fb5ce1b28751400483.jpg"
   },
   {
@@ -95,7 +95,7 @@
     "genre": "Pop",
     "year": 2019,
     "duration": "4:29",
-    "url": "src/assets/bai2.mp3",
+    "url": "/src/assets/bai2.mp3",
     "cover": "https://photo-zmp3.zmdcdn.me/banner/3/8/b/2/38b2ee1fa054de2b745e4e7d27fb2db0.jpg"
   },
   {
@@ -106,7 +106,7 @@
     "genre": "Ballad",
     "year": 2018,
     "duration": "4:10",
-    "url": "src/assets/bai1.mp3",
+    "url": "/src/assets/bai1.mp3",
     "cover": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_jpeg/cover/3/3/5/f/335fd454479984639775bed29d9549f1.jpg"
   }
 ]

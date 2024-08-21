@@ -47,3 +47,11 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.rhap_time {
+  color: #fff !important;
+}
+
+.rhap_stacked {
+  flex-direction: column-reverse !important;
+}
